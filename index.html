@@ -405,13 +405,18 @@
       <button type="button" class="modal-close" data-modal-close><svg class="crosssvg" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1-1-1"></use>
         </svg></button>
-        <p class="modaltitle">Leave your contacts and we will call you back</p>
-        <form action="">
-          <div class=""></div>
-        </form>
+      <p class="modaltitle">Leave your contacts and we will call you back</p>
+      <form action="">
+        <div class="modalform">
+          <label class="modallabel" for="user-name">Name</label>
+          <div class="inputicon">
+            <input id="user-name" name="user-name" type="text" class="modalinput">
+          </div>
+        </div>
+      </form>
     </div>
   </div>
-  
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
