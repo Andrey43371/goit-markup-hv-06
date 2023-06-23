@@ -626,6 +626,7 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+   padding: 72px 24px 24px 24px;
 }
 .modal {
   position: absolute;
@@ -676,13 +677,12 @@ img {
   fill: #ffffff;
 }
 .modaltitle {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #999999;
-  border-radius: 50%;
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
+ font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: var(--second-pege-background);
+   margin-bottom: 16px;
+   
 }
