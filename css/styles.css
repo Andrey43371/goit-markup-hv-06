@@ -381,10 +381,9 @@ img {
 }
 .formsubscription {
   display: flex;
+  gap: 24px ;
 }
-.labelsubscription {
-  gap: 24px;
-}
+
 .inputsubscription {
   width: 264px; 
   height: 40px;
