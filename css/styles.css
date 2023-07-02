@@ -813,6 +813,8 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.hiddenspan:checked {  
   background-color: var(--hiddenspan-background-color);
   border: none;
   fill: var(--second-icon-color);
