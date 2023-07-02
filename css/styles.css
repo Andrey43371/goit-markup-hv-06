@@ -814,11 +814,15 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.hiddenspan:checked {  
+.modalformtwo .hiddenspan:checked{
   background-color: var(--hiddenspan-background-color);
   border: none;
   fill: var(--second-icon-color);
-}
+}   
+  background-color: var(--hiddenspan-background-color);
+  border: none;
+  fill: var(--second-icon-color);
+
 .hiddenspansvg {
   
 }
