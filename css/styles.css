@@ -12,6 +12,7 @@
   --first-icon-color: #8e8f99;
   --color-footer-text: #ffffff;
   --second-icon-color: #f4f4fd;
+  --hiddenspan-background-color: #404bbf;
 }
 
 body {
@@ -812,6 +813,9 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  background-color: var(--hiddenspan-background-color);
+  border: none;
+  fill: var(--second-icon-color);
 }
 .hiddenspansvg {
   
