@@ -814,7 +814,7 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.modalformtwo .hiddenspan:checked{
+input .hiddenspan:checked {
   background-color: var(--hiddenspan-background-color);
   border: none;
   fill: var(--second-icon-color);
