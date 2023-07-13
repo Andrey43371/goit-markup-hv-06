@@ -828,16 +828,12 @@ display: none;
   justify-content: center;
   fill: transparent;
 }
-input .hiddenspan:checked {
+/* input .hiddenspan:checked {
   background-color: var(--hiddenspan-background-color);
   border: none;
   fill: var(--second-icon-color);
-}   
+}    */
 
-
-.hiddenspansvg {
-  
-}
 .modalformlink {
   display: inline-block;
   color: var(--third-text-color);
