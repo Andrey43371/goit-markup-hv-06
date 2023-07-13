@@ -372,6 +372,9 @@ img {
 .footersvg {
   fill: var(--second-icon-color);
 }
+.footerform {
+  margin-left: 100px;
+}
 .subscription {
   margin-bottom: 16px;
   font-weight: 500;
@@ -766,7 +769,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
-.modalinput :focus {
+.modalinput:focus + svg {
   fill: #4D5AE5;
 }
 .modalformtwo {
@@ -798,6 +801,7 @@ img {
   line-height: 1.17; 
   letter-spacing: 0.04em;
   color: var(--first-icon-color);
+display: none;
 }
 .visually-hidden {
   visibility: hidden;
@@ -807,6 +811,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--first-icon-color);
+}
+.modalinputtwo:checked + label span {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
 .hiddenspan {
   width: 16px; 
@@ -824,15 +833,15 @@ input .hiddenspan:checked {
   border: none;
   fill: var(--second-icon-color);
 }   
-  /* background-color: var(--hiddenspan-background-color);
-  border: none;
-  fill: var(--second-icon-color); */
+
 
 .hiddenspansvg {
   
 }
 .modalformlink {
+  display: inline-block;
   color: var(--third-text-color);
+text-decoration: underline;
 }
 .modalformbtn {
   display: block;
