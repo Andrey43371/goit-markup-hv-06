@@ -824,9 +824,9 @@ input .hiddenspan:checked {
   border: none;
   fill: var(--second-icon-color);
 }   
-  background-color: var(--hiddenspan-background-color);
+  /* background-color: var(--hiddenspan-background-color);
   border: none;
-  fill: var(--second-icon-color);
+  fill: var(--second-icon-color); */
 
 .hiddenspansvg {
   
