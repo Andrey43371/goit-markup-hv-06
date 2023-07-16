@@ -418,6 +418,12 @@ img {
       border: none;
       border-radius: 4px;
 }
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+   background-color: #404bbf;
+  cursor: pointer;
+}
+ 
 .subscribe-svg {
   margin-left: 16px;
 }
@@ -710,7 +716,7 @@ img {
 .modal-close:focus {
   background-color: #404bbf;
   border: none;
-  transition: background-color border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color border 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .modal-close:hover,
 .modal-close:focus {
@@ -778,10 +784,10 @@ img {
 .modalextarea {
   width: 100%; 
   height: 120px;
-  font-size: 12px;
+  /* font-size: 12px; */
    line-height: 1.17; 
    letter-spacing: 0.04em;
-   color: rgba(46, 47, 66, 0.4);
+   /* color: rgba(46, 47, 66, 0.4); */
    border: 1px solid rgba(46, 47, 66, 0.4);
    border-radius: 4px;
    background-color: transparent;
@@ -804,7 +810,7 @@ img {
 display: none;
 }
 .visually-hidden {
-  visibility: hidden;
+overflow: hidden;
 }
 .modallabeltwo {
   font-size: 12px;
@@ -863,3 +869,8 @@ font-weight: 500;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
 }
+.modalformbtn:hover,
+.modalformbtn:focus {
+    background-color: #404bbf;
+  cursor: pointer;
+} 
