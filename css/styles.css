@@ -809,7 +809,7 @@ img {
 display: none;
 }
 .visually-hidden {
-overflow: hidden;
+appearance: none;
 }
 .modallabeltwo {
   font-size: 12px;
@@ -822,6 +822,16 @@ overflow: hidden;
   border: none;
   fill: #F4F4FD;
 }
+/* .hiddenspansvg:hover,
+.hiddenspansvg:focus,
+.hiddenspansvg:active {
+  background-color: #404bbf;
+  border: none;
+  } */
+  .modalformthree input[type=checkbox]:checked {
+	color: white;
+	background: #e08543;
+}
 .hiddenspan {
   width: 16px; 
   height: 16px;
@@ -833,12 +843,6 @@ overflow: hidden;
   justify-content: center;
   fill: transparent;
 }
-/* input .hiddenspan:checked {
-  background-color: var(--hiddenspan-background-color);
-  border: none;
-  fill: var(--second-icon-color);
-}    */
-
 .modalformlink {
   display: inline-block;
   color: var(--third-text-color);
