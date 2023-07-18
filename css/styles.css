@@ -809,6 +809,9 @@ img {
 display: none;
 }
 .visually-hidden {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 appearance: none;
 }
 .modallabeltwo {
@@ -822,15 +825,8 @@ appearance: none;
   border: none;
   fill: #F4F4FD;
 }
-/* .hiddenspansvg:hover,
-.hiddenspansvg:focus,
-.hiddenspansvg:active {
-  background-color: #404bbf;
-  border: none;
-  } */
-  .modalformthree input[type=checkbox]:checked {
-	color: white;
-	background: #e08543;
+.modalinputtwo:not(:checked) + label span svg use {
+  opacity: 0;
 }
 .hiddenspan {
   width: 16px; 
